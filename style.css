@@ -96,71 +96,8 @@ h2 {
 p.h2-2 {
   margin-top: -250px;
    font-size: 2rem;
-
 }
 
-#projects {
- background-color: #1d5ae0;
-  padding-bottom: 2rem;
-}
-
-
-.gallery {
-display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  max-width: 1450px;
-  margin: 0 auto;
-  padding: 20px 10px;
-
-
- 
-}
-.grid-img {
-  max-width: 450px;
-  height: 400px;
-  object-fit: cover;
-  border-radius: 3px;
-    box-shadow: 0 3px 5px rgb(0, 0, 0, 0.6);
-
-}
-
-.grid-img:hover {
-       transform: translateY(.20em);
-       z-index: -1;
-       transition-duration: .5s;
-      
-}
-
-
-/*button styling inspired by Elle Townsend*/
-
-button {
-box-shadow: 0 10px #4fa283;
-margin: 0 auto;
-display: flex;
-justify-content: center;
-align-items: center;
-background-color: #60d394;
-border-radius: .25rem;
-color: white;
-padding: .5rem 2rem;
-font-size: 1.5rem;
-font-weight: bold;
- 
-}
-button:hover {
-  box-shadow: 0 8px #4fa283;
-  transform: translateY(1px);
-}
-button:active {
-  background-color: #4b9489;
-  box-shadow: 0 5px #407762;
-  transform: translateY(4px);
-}
 
 
 span {
@@ -168,11 +105,6 @@ span {
 }
 
 
-#work-together {
-  background-color:#fd8657;
- padding-bottom: 50px;
-  padding-top: 30px;
-}
 
 .work-together {
   width: 80%;
