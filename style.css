@@ -10,7 +10,7 @@ html { scroll-behavior: smooth;
 body {
     font-size: 16px;
     line-height: 1.5;
-    color: #fffdff;
+    color: #000000;
      font-family: helvetica;
 }
 
@@ -27,7 +27,7 @@ padding: 1rem;
 position: fixed;
 width: 100%;
 border-bottom: 4px dashed white;
-background-color:  #1d5ae0 ;
+background-color:  #ffffff ;
 z-index: 1;
 }
 
@@ -215,6 +215,13 @@ li {
   line-height: 1.5;
   margin-bottom: 5px;
   color: black; /* add this line to change li text color to black */
+}
+
+.kh-image {
+  width: 100%; /* make the image 100% of the container width */
+  height: auto; /* maintain the aspect ratio of the image */
+  border: 1px solid black; /* add a black border to the image */
+  margin-top: 20px; /* add a top margin of 20px */
 }
 
 @media (max-width: 500px) {
